@@ -1,6 +1,4 @@
-﻿// ZadanieSłonie.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
-
+﻿//Kamil Krok
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -35,10 +33,10 @@ int main()
     }
     for (int i = 0; i < numb; i++)
     {
-        int cos;
-        File >> cos;
-        cos--;
-        des[cos] = pos[i];
+        int n;
+        File >> n;
+        n--;
+        des[n] = pos[i];
     }
     for (int i = 0; i < numb; i++)
     {
